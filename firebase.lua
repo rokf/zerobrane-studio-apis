@@ -73,6 +73,12 @@ return {
         returns = "()",
         type = "method"
       },
+      upload = {
+        args = "(path : string, filename : string)",
+        description = "upload data from JSON file to path",
+        returns = "()",
+        type = "method"
+      },
       }
     }
 }
